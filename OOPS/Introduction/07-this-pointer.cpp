@@ -55,10 +55,10 @@ int rectangle :: perimeter(){
 int main(){
 
     rectangle r(5,3);
-    r.getInfo();
+    r.getInfo();    //15    16
 
     rectangle rcopy(r);
-    rcopy.getInfo();
+    rcopy.getInfo();    //15    16
 
     return 0;
 }
