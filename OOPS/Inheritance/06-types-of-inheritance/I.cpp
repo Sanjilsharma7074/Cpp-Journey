@@ -39,10 +39,10 @@ class D:public B,public C{
 int main(){
 
     D obj;
-    obj.funA();
-    obj.funB();
-    obj.funC();
-    obj.funD();
+    obj.funA();    //class A
+    obj.funB();    //class B
+    obj.funC();    //class C
+    obj.funD();    //class D
 
     return 0;
 }
