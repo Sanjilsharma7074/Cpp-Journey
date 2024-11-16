@@ -27,7 +27,7 @@ class Derived:public Base{
 
 int main(){
 
-    Derived obj(10,20);
+    Derived obj(10,20);    //Base param constructor: 20    Derived param constructor: 10
 
     return 0;
 }
