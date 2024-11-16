@@ -17,7 +17,7 @@ class Derived:public Base{
 
 int main(){
 
-    Derived obj;
+    Derived obj;    //Base constructor    Derived constructor
 
     return 0;
 }
