@@ -72,7 +72,7 @@ ostream& operator<<(ostream &out,cuboid &obj){
 int main(){
 
     cuboid c(10,2,3);
-    cout<<c<<endl;
+    cout<<c<<endl;        //Length: 10    Breadth: 2    Height: 3    Volume: 60
 
     return 0;
 }
